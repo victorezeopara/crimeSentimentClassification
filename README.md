@@ -38,4 +38,26 @@ existing_crime_data = [
     # Add more examples as needed
 ]
 
+# Classification Report
 
+Classification Report
+
+Accuracy: 1.00
+Severity-Score	Precision	Recall	F1-Score	Support
+        2	            1.00	1.00	1.00	268
+        3	            1.00	1.00	1.00	331
+        4	            1.00	1.00	1.00	377
+        5	            1.00	1.00	1.00	450
+        6	            1.00	1.00	1.00	717
+        7	            1.00	1.00	1.00	782
+        8	            1.00	1.00	1.00	997
+        9	            1.00	1.00	1.00	723
+        10	            1.00	1.00	1.00	355
+
+Accuracy: 1.00
+Macro Average: 1.00
+Weighted Average: 1.00
+
+Accuracy: 1.00
+Macro Average: 1.00
+Weighted Average: 1.00
