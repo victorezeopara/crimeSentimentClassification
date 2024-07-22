@@ -2,22 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import grabLocation
 import json
-
-
-
-from firebase_admin import firestore
-
-# Use a service account.
-import firebase_admin
-from firebase_admin import credentials
-import uuid
-import  time
-import datetime
-
-cred = credentials.Certificate("serviceAccountKey.json")
-app = firebase_admin.initialize_app(cred)
-db = firestore.client()
-
 import joblib
 
 # Load the trained TF-IDF vectorizer and RandomForestClassifier
@@ -34,7 +18,7 @@ def crawl_nigerian_news_sites():
     urls = [
 
         'https://punchng.com/topics/metro-plus/',
-        # Add more URLs as needed
+        # add other urls
     ]
 
     # Loop through each URL
