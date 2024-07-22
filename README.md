@@ -35,7 +35,7 @@ existing_crime_data = [
     ("Trespassing on government property", 4),
     ("Identity theft and credit card fraud", 8),
     ("Noise complaints and disturbance", 2),
-   
+    
 ]
 
 # Classification Report
